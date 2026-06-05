@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 3.10)
+project(video_app)
+add_subdirectory(lib/glfw)
+add_executable(video_app src/main.cpp)
+target_link_libraries(video_app glfw)
+target_include_directories(video_app PRIVATE lib/glfw/include)

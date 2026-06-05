@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/video_app/build/cmake_install.cmake",
+		"D:/video_app/build/lib/glfw/cmake_install.cmake",
+		"D:/video_app/build/lib/glfw/src/cmake_install.cmake",
+		"D:/video_app/build/lib/glfw/docs/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
