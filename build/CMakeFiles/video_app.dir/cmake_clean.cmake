@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/video_app.dir/src/gl.c.obj"
+  "CMakeFiles/video_app.dir/src/gl.c.obj.d"
   "CMakeFiles/video_app.dir/src/main.cpp.obj"
   "CMakeFiles/video_app.dir/src/main.cpp.obj.d"
   "libvideo_app.dll.a"
@@ -8,6 +10,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C CXX)
   include(CMakeFiles/video_app.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()

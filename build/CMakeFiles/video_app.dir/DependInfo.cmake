@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/video_app/src/gl.c" "CMakeFiles/video_app.dir/src/gl.c.obj" "gcc" "CMakeFiles/video_app.dir/src/gl.c.obj.d"
   "D:/video_app/src/main.cpp" "CMakeFiles/video_app.dir/src/main.cpp.obj" "gcc" "CMakeFiles/video_app.dir/src/main.cpp.obj.d"
   )
 

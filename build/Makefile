@@ -212,6 +212,30 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f lib\glfw\src\CMakeFiles\update_mappings.dir\build.make lib/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
+src/gl.obj: src/gl.c.obj
+.PHONY : src/gl.obj
+
+# target to build an object file
+src/gl.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/src/gl.c.obj
+.PHONY : src/gl.c.obj
+
+src/gl.i: src/gl.c.i
+.PHONY : src/gl.i
+
+# target to preprocess a source file
+src/gl.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/src/gl.c.i
+.PHONY : src/gl.c.i
+
+src/gl.s: src/gl.c.s
+.PHONY : src/gl.s
+
+# target to generate assembly for a file
+src/gl.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/src/gl.c.s
+.PHONY : src/gl.c.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -252,6 +276,9 @@ help:
 	@echo ... update_mappings
 	@echo ... glfw
 	@echo ... video_app
+	@echo ... src/gl.obj
+	@echo ... src/gl.i
+	@echo ... src/gl.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s

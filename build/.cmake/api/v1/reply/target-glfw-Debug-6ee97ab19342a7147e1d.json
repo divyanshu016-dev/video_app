@@ -115,7 +115,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-std=c99"
+					"fragment" : "-g -std=c99"
 				},
 				{
 					"backtrace" : 4,

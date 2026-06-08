@@ -5,9 +5,23 @@
 			"abstractTargets" : 
 			[
 				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::GL::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL__GL-Debug-da4f5a9ee599c48f7341.json",
+					"name" : "OpenGL::GL",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "OpenGL::GLU::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-OpenGL__GLU-Debug-62b424baec0f8ab7b66c.json",
+					"name" : "OpenGL::GLU",
+					"projectIndex" : 0
+				},
+				{
 					"directoryIndex" : 1,
 					"id" : "Threads::Threads::@a7a2f639778f88e1b46d",
-					"jsonFile" : "target-Threads__Threads-721aec4f229587ccb9e8.json",
+					"jsonFile" : "target-Threads__Threads-Debug-721aec4f229587ccb9e8.json",
 					"name" : "Threads::Threads",
 					"projectIndex" : 1
 				}
@@ -15,13 +29,18 @@
 			"directories" : 
 			[
 				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1
+					],
 					"build" : ".",
 					"childIndexes" : 
 					[
 						1
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-f040eec181a89de70dbe.json",
+					"jsonFile" : "directory-.-Debug-f040eec181a89de70dbe.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -36,7 +55,7 @@
 				{
 					"abstractTargetIndexes" : 
 					[
-						0
+						2
 					],
 					"build" : "lib/glfw",
 					"childIndexes" : 
@@ -45,7 +64,7 @@
 						3
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-lib.glfw-8a3f5acea68c3d294859.json",
+					"jsonFile" : "directory-lib.glfw-Debug-8a3f5acea68c3d294859.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -61,7 +80,7 @@
 				{
 					"build" : "lib/glfw/src",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-lib.glfw.src-be89bab751e94e209a14.json",
+					"jsonFile" : "directory-lib.glfw.src-Debug-be89bab751e94e209a14.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -77,7 +96,7 @@
 				},
 				{
 					"build" : "lib/glfw/docs",
-					"jsonFile" : "directory-lib.glfw.docs-a1087db75f9baa5433a1.json",
+					"jsonFile" : "directory-lib.glfw.docs-Debug-a1087db75f9baa5433a1.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -87,10 +106,15 @@
 					"source" : "lib/glfw/docs"
 				}
 			],
-			"name" : "",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
+					"abstractTargetIndexes" : 
+					[
+						0,
+						1
+					],
 					"childIndexes" : 
 					[
 						1
@@ -108,7 +132,7 @@
 				{
 					"abstractTargetIndexes" : 
 					[
-						0
+						2
 					],
 					"directoryIndexes" : 
 					[
@@ -131,28 +155,28 @@
 				{
 					"directoryIndex" : 2,
 					"id" : "glfw::@17f284a5fc0809a54549",
-					"jsonFile" : "target-glfw-26d694449db1e55be304.json",
+					"jsonFile" : "target-glfw-Debug-6ee97ab19342a7147e1d.json",
 					"name" : "glfw",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 1,
 					"id" : "uninstall::@a7a2f639778f88e1b46d",
-					"jsonFile" : "target-uninstall-0796bb45f82c61044f2c.json",
+					"jsonFile" : "target-uninstall-Debug-0796bb45f82c61044f2c.json",
 					"name" : "uninstall",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "update_mappings::@17f284a5fc0809a54549",
-					"jsonFile" : "target-update_mappings-958544749ac42d26cb88.json",
+					"jsonFile" : "target-update_mappings-Debug-958544749ac42d26cb88.json",
 					"name" : "update_mappings",
 					"projectIndex" : 1
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "video_app::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-video_app-f3c10c3557d9a087243c.json",
+					"jsonFile" : "target-video_app-Debug-28897d0f106472a8866c.json",
 					"name" : "video_app",
 					"projectIndex" : 0
 				}
