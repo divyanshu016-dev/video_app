@@ -212,6 +212,174 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f lib\glfw\src\CMakeFiles\update_mappings.dir\build.make lib/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
+include/imgui/imgui.obj: include/imgui/imgui.cpp.obj
+.PHONY : include/imgui/imgui.obj
+
+# target to build an object file
+include/imgui/imgui.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui.cpp.obj
+.PHONY : include/imgui/imgui.cpp.obj
+
+include/imgui/imgui.i: include/imgui/imgui.cpp.i
+.PHONY : include/imgui/imgui.i
+
+# target to preprocess a source file
+include/imgui/imgui.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui.cpp.i
+.PHONY : include/imgui/imgui.cpp.i
+
+include/imgui/imgui.s: include/imgui/imgui.cpp.s
+.PHONY : include/imgui/imgui.s
+
+# target to generate assembly for a file
+include/imgui/imgui.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui.cpp.s
+.PHONY : include/imgui/imgui.cpp.s
+
+include/imgui/imgui_demo.obj: include/imgui/imgui_demo.cpp.obj
+.PHONY : include/imgui/imgui_demo.obj
+
+# target to build an object file
+include/imgui/imgui_demo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui_demo.cpp.obj
+.PHONY : include/imgui/imgui_demo.cpp.obj
+
+include/imgui/imgui_demo.i: include/imgui/imgui_demo.cpp.i
+.PHONY : include/imgui/imgui_demo.i
+
+# target to preprocess a source file
+include/imgui/imgui_demo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui_demo.cpp.i
+.PHONY : include/imgui/imgui_demo.cpp.i
+
+include/imgui/imgui_demo.s: include/imgui/imgui_demo.cpp.s
+.PHONY : include/imgui/imgui_demo.s
+
+# target to generate assembly for a file
+include/imgui/imgui_demo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui_demo.cpp.s
+.PHONY : include/imgui/imgui_demo.cpp.s
+
+include/imgui/imgui_draw.obj: include/imgui/imgui_draw.cpp.obj
+.PHONY : include/imgui/imgui_draw.obj
+
+# target to build an object file
+include/imgui/imgui_draw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui_draw.cpp.obj
+.PHONY : include/imgui/imgui_draw.cpp.obj
+
+include/imgui/imgui_draw.i: include/imgui/imgui_draw.cpp.i
+.PHONY : include/imgui/imgui_draw.i
+
+# target to preprocess a source file
+include/imgui/imgui_draw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui_draw.cpp.i
+.PHONY : include/imgui/imgui_draw.cpp.i
+
+include/imgui/imgui_draw.s: include/imgui/imgui_draw.cpp.s
+.PHONY : include/imgui/imgui_draw.s
+
+# target to generate assembly for a file
+include/imgui/imgui_draw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui_draw.cpp.s
+.PHONY : include/imgui/imgui_draw.cpp.s
+
+include/imgui/imgui_impl_glfw.obj: include/imgui/imgui_impl_glfw.cpp.obj
+.PHONY : include/imgui/imgui_impl_glfw.obj
+
+# target to build an object file
+include/imgui/imgui_impl_glfw.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui_impl_glfw.cpp.obj
+.PHONY : include/imgui/imgui_impl_glfw.cpp.obj
+
+include/imgui/imgui_impl_glfw.i: include/imgui/imgui_impl_glfw.cpp.i
+.PHONY : include/imgui/imgui_impl_glfw.i
+
+# target to preprocess a source file
+include/imgui/imgui_impl_glfw.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui_impl_glfw.cpp.i
+.PHONY : include/imgui/imgui_impl_glfw.cpp.i
+
+include/imgui/imgui_impl_glfw.s: include/imgui/imgui_impl_glfw.cpp.s
+.PHONY : include/imgui/imgui_impl_glfw.s
+
+# target to generate assembly for a file
+include/imgui/imgui_impl_glfw.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui_impl_glfw.cpp.s
+.PHONY : include/imgui/imgui_impl_glfw.cpp.s
+
+include/imgui/imgui_impl_opengl3.obj: include/imgui/imgui_impl_opengl3.cpp.obj
+.PHONY : include/imgui/imgui_impl_opengl3.obj
+
+# target to build an object file
+include/imgui/imgui_impl_opengl3.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui_impl_opengl3.cpp.obj
+.PHONY : include/imgui/imgui_impl_opengl3.cpp.obj
+
+include/imgui/imgui_impl_opengl3.i: include/imgui/imgui_impl_opengl3.cpp.i
+.PHONY : include/imgui/imgui_impl_opengl3.i
+
+# target to preprocess a source file
+include/imgui/imgui_impl_opengl3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui_impl_opengl3.cpp.i
+.PHONY : include/imgui/imgui_impl_opengl3.cpp.i
+
+include/imgui/imgui_impl_opengl3.s: include/imgui/imgui_impl_opengl3.cpp.s
+.PHONY : include/imgui/imgui_impl_opengl3.s
+
+# target to generate assembly for a file
+include/imgui/imgui_impl_opengl3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui_impl_opengl3.cpp.s
+.PHONY : include/imgui/imgui_impl_opengl3.cpp.s
+
+include/imgui/imgui_tables.obj: include/imgui/imgui_tables.cpp.obj
+.PHONY : include/imgui/imgui_tables.obj
+
+# target to build an object file
+include/imgui/imgui_tables.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui_tables.cpp.obj
+.PHONY : include/imgui/imgui_tables.cpp.obj
+
+include/imgui/imgui_tables.i: include/imgui/imgui_tables.cpp.i
+.PHONY : include/imgui/imgui_tables.i
+
+# target to preprocess a source file
+include/imgui/imgui_tables.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui_tables.cpp.i
+.PHONY : include/imgui/imgui_tables.cpp.i
+
+include/imgui/imgui_tables.s: include/imgui/imgui_tables.cpp.s
+.PHONY : include/imgui/imgui_tables.s
+
+# target to generate assembly for a file
+include/imgui/imgui_tables.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui_tables.cpp.s
+.PHONY : include/imgui/imgui_tables.cpp.s
+
+include/imgui/imgui_widgets.obj: include/imgui/imgui_widgets.cpp.obj
+.PHONY : include/imgui/imgui_widgets.obj
+
+# target to build an object file
+include/imgui/imgui_widgets.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui_widgets.cpp.obj
+.PHONY : include/imgui/imgui_widgets.cpp.obj
+
+include/imgui/imgui_widgets.i: include/imgui/imgui_widgets.cpp.i
+.PHONY : include/imgui/imgui_widgets.i
+
+# target to preprocess a source file
+include/imgui/imgui_widgets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui_widgets.cpp.i
+.PHONY : include/imgui/imgui_widgets.cpp.i
+
+include/imgui/imgui_widgets.s: include/imgui/imgui_widgets.cpp.s
+.PHONY : include/imgui/imgui_widgets.s
+
+# target to generate assembly for a file
+include/imgui/imgui_widgets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\video_app.dir\build.make CMakeFiles/video_app.dir/include/imgui/imgui_widgets.cpp.s
+.PHONY : include/imgui/imgui_widgets.cpp.s
+
 src/gl.obj: src/gl.c.obj
 .PHONY : src/gl.obj
 
@@ -276,6 +444,27 @@ help:
 	@echo ... update_mappings
 	@echo ... glfw
 	@echo ... video_app
+	@echo ... include/imgui/imgui.obj
+	@echo ... include/imgui/imgui.i
+	@echo ... include/imgui/imgui.s
+	@echo ... include/imgui/imgui_demo.obj
+	@echo ... include/imgui/imgui_demo.i
+	@echo ... include/imgui/imgui_demo.s
+	@echo ... include/imgui/imgui_draw.obj
+	@echo ... include/imgui/imgui_draw.i
+	@echo ... include/imgui/imgui_draw.s
+	@echo ... include/imgui/imgui_impl_glfw.obj
+	@echo ... include/imgui/imgui_impl_glfw.i
+	@echo ... include/imgui/imgui_impl_glfw.s
+	@echo ... include/imgui/imgui_impl_opengl3.obj
+	@echo ... include/imgui/imgui_impl_opengl3.i
+	@echo ... include/imgui/imgui_impl_opengl3.s
+	@echo ... include/imgui/imgui_tables.obj
+	@echo ... include/imgui/imgui_tables.i
+	@echo ... include/imgui/imgui_tables.s
+	@echo ... include/imgui/imgui_widgets.obj
+	@echo ... include/imgui/imgui_widgets.i
+	@echo ... include/imgui/imgui_widgets.s
 	@echo ... src/gl.obj
 	@echo ... src/gl.i
 	@echo ... src/gl.s

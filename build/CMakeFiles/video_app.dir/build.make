@@ -101,22 +101,141 @@ CMakeFiles/video_app.dir/src/gl.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/video_app.dir/src/gl.c.s"
 	C:\msys64\ucrt64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\video_app\src\gl.c -o CMakeFiles\video_app.dir\src\gl.c.s
 
+CMakeFiles/video_app.dir/include/imgui/imgui.cpp.obj: CMakeFiles/video_app.dir/flags.make
+CMakeFiles/video_app.dir/include/imgui/imgui.cpp.obj: CMakeFiles/video_app.dir/includes_CXX.rsp
+CMakeFiles/video_app.dir/include/imgui/imgui.cpp.obj: D:/video_app/include/imgui/imgui.cpp
+CMakeFiles/video_app.dir/include/imgui/imgui.cpp.obj: CMakeFiles/video_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\video_app\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/video_app.dir/include/imgui/imgui.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_app.dir/include/imgui/imgui.cpp.obj -MF CMakeFiles\video_app.dir\include\imgui\imgui.cpp.obj.d -o CMakeFiles\video_app.dir\include\imgui\imgui.cpp.obj -c D:\video_app\include\imgui\imgui.cpp
+
+CMakeFiles/video_app.dir/include/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/video_app.dir/include/imgui/imgui.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\video_app\include\imgui\imgui.cpp > CMakeFiles\video_app.dir\include\imgui\imgui.cpp.i
+
+CMakeFiles/video_app.dir/include/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/video_app.dir/include/imgui/imgui.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\video_app\include\imgui\imgui.cpp -o CMakeFiles\video_app.dir\include\imgui\imgui.cpp.s
+
+CMakeFiles/video_app.dir/include/imgui/imgui_demo.cpp.obj: CMakeFiles/video_app.dir/flags.make
+CMakeFiles/video_app.dir/include/imgui/imgui_demo.cpp.obj: CMakeFiles/video_app.dir/includes_CXX.rsp
+CMakeFiles/video_app.dir/include/imgui/imgui_demo.cpp.obj: D:/video_app/include/imgui/imgui_demo.cpp
+CMakeFiles/video_app.dir/include/imgui/imgui_demo.cpp.obj: CMakeFiles/video_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\video_app\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/video_app.dir/include/imgui/imgui_demo.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_app.dir/include/imgui/imgui_demo.cpp.obj -MF CMakeFiles\video_app.dir\include\imgui\imgui_demo.cpp.obj.d -o CMakeFiles\video_app.dir\include\imgui\imgui_demo.cpp.obj -c D:\video_app\include\imgui\imgui_demo.cpp
+
+CMakeFiles/video_app.dir/include/imgui/imgui_demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/video_app.dir/include/imgui/imgui_demo.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\video_app\include\imgui\imgui_demo.cpp > CMakeFiles\video_app.dir\include\imgui\imgui_demo.cpp.i
+
+CMakeFiles/video_app.dir/include/imgui/imgui_demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/video_app.dir/include/imgui/imgui_demo.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\video_app\include\imgui\imgui_demo.cpp -o CMakeFiles\video_app.dir\include\imgui\imgui_demo.cpp.s
+
+CMakeFiles/video_app.dir/include/imgui/imgui_draw.cpp.obj: CMakeFiles/video_app.dir/flags.make
+CMakeFiles/video_app.dir/include/imgui/imgui_draw.cpp.obj: CMakeFiles/video_app.dir/includes_CXX.rsp
+CMakeFiles/video_app.dir/include/imgui/imgui_draw.cpp.obj: D:/video_app/include/imgui/imgui_draw.cpp
+CMakeFiles/video_app.dir/include/imgui/imgui_draw.cpp.obj: CMakeFiles/video_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\video_app\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/video_app.dir/include/imgui/imgui_draw.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_app.dir/include/imgui/imgui_draw.cpp.obj -MF CMakeFiles\video_app.dir\include\imgui\imgui_draw.cpp.obj.d -o CMakeFiles\video_app.dir\include\imgui\imgui_draw.cpp.obj -c D:\video_app\include\imgui\imgui_draw.cpp
+
+CMakeFiles/video_app.dir/include/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/video_app.dir/include/imgui/imgui_draw.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\video_app\include\imgui\imgui_draw.cpp > CMakeFiles\video_app.dir\include\imgui\imgui_draw.cpp.i
+
+CMakeFiles/video_app.dir/include/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/video_app.dir/include/imgui/imgui_draw.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\video_app\include\imgui\imgui_draw.cpp -o CMakeFiles\video_app.dir\include\imgui\imgui_draw.cpp.s
+
+CMakeFiles/video_app.dir/include/imgui/imgui_impl_glfw.cpp.obj: CMakeFiles/video_app.dir/flags.make
+CMakeFiles/video_app.dir/include/imgui/imgui_impl_glfw.cpp.obj: CMakeFiles/video_app.dir/includes_CXX.rsp
+CMakeFiles/video_app.dir/include/imgui/imgui_impl_glfw.cpp.obj: D:/video_app/include/imgui/imgui_impl_glfw.cpp
+CMakeFiles/video_app.dir/include/imgui/imgui_impl_glfw.cpp.obj: CMakeFiles/video_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\video_app\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/video_app.dir/include/imgui/imgui_impl_glfw.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_app.dir/include/imgui/imgui_impl_glfw.cpp.obj -MF CMakeFiles\video_app.dir\include\imgui\imgui_impl_glfw.cpp.obj.d -o CMakeFiles\video_app.dir\include\imgui\imgui_impl_glfw.cpp.obj -c D:\video_app\include\imgui\imgui_impl_glfw.cpp
+
+CMakeFiles/video_app.dir/include/imgui/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/video_app.dir/include/imgui/imgui_impl_glfw.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\video_app\include\imgui\imgui_impl_glfw.cpp > CMakeFiles\video_app.dir\include\imgui\imgui_impl_glfw.cpp.i
+
+CMakeFiles/video_app.dir/include/imgui/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/video_app.dir/include/imgui/imgui_impl_glfw.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\video_app\include\imgui\imgui_impl_glfw.cpp -o CMakeFiles\video_app.dir\include\imgui\imgui_impl_glfw.cpp.s
+
+CMakeFiles/video_app.dir/include/imgui/imgui_impl_opengl3.cpp.obj: CMakeFiles/video_app.dir/flags.make
+CMakeFiles/video_app.dir/include/imgui/imgui_impl_opengl3.cpp.obj: CMakeFiles/video_app.dir/includes_CXX.rsp
+CMakeFiles/video_app.dir/include/imgui/imgui_impl_opengl3.cpp.obj: D:/video_app/include/imgui/imgui_impl_opengl3.cpp
+CMakeFiles/video_app.dir/include/imgui/imgui_impl_opengl3.cpp.obj: CMakeFiles/video_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\video_app\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/video_app.dir/include/imgui/imgui_impl_opengl3.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_app.dir/include/imgui/imgui_impl_opengl3.cpp.obj -MF CMakeFiles\video_app.dir\include\imgui\imgui_impl_opengl3.cpp.obj.d -o CMakeFiles\video_app.dir\include\imgui\imgui_impl_opengl3.cpp.obj -c D:\video_app\include\imgui\imgui_impl_opengl3.cpp
+
+CMakeFiles/video_app.dir/include/imgui/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/video_app.dir/include/imgui/imgui_impl_opengl3.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\video_app\include\imgui\imgui_impl_opengl3.cpp > CMakeFiles\video_app.dir\include\imgui\imgui_impl_opengl3.cpp.i
+
+CMakeFiles/video_app.dir/include/imgui/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/video_app.dir/include/imgui/imgui_impl_opengl3.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\video_app\include\imgui\imgui_impl_opengl3.cpp -o CMakeFiles\video_app.dir\include\imgui\imgui_impl_opengl3.cpp.s
+
+CMakeFiles/video_app.dir/include/imgui/imgui_tables.cpp.obj: CMakeFiles/video_app.dir/flags.make
+CMakeFiles/video_app.dir/include/imgui/imgui_tables.cpp.obj: CMakeFiles/video_app.dir/includes_CXX.rsp
+CMakeFiles/video_app.dir/include/imgui/imgui_tables.cpp.obj: D:/video_app/include/imgui/imgui_tables.cpp
+CMakeFiles/video_app.dir/include/imgui/imgui_tables.cpp.obj: CMakeFiles/video_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\video_app\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/video_app.dir/include/imgui/imgui_tables.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_app.dir/include/imgui/imgui_tables.cpp.obj -MF CMakeFiles\video_app.dir\include\imgui\imgui_tables.cpp.obj.d -o CMakeFiles\video_app.dir\include\imgui\imgui_tables.cpp.obj -c D:\video_app\include\imgui\imgui_tables.cpp
+
+CMakeFiles/video_app.dir/include/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/video_app.dir/include/imgui/imgui_tables.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\video_app\include\imgui\imgui_tables.cpp > CMakeFiles\video_app.dir\include\imgui\imgui_tables.cpp.i
+
+CMakeFiles/video_app.dir/include/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/video_app.dir/include/imgui/imgui_tables.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\video_app\include\imgui\imgui_tables.cpp -o CMakeFiles\video_app.dir\include\imgui\imgui_tables.cpp.s
+
+CMakeFiles/video_app.dir/include/imgui/imgui_widgets.cpp.obj: CMakeFiles/video_app.dir/flags.make
+CMakeFiles/video_app.dir/include/imgui/imgui_widgets.cpp.obj: CMakeFiles/video_app.dir/includes_CXX.rsp
+CMakeFiles/video_app.dir/include/imgui/imgui_widgets.cpp.obj: D:/video_app/include/imgui/imgui_widgets.cpp
+CMakeFiles/video_app.dir/include/imgui/imgui_widgets.cpp.obj: CMakeFiles/video_app.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\video_app\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/video_app.dir/include/imgui/imgui_widgets.cpp.obj"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/video_app.dir/include/imgui/imgui_widgets.cpp.obj -MF CMakeFiles\video_app.dir\include\imgui\imgui_widgets.cpp.obj.d -o CMakeFiles\video_app.dir\include\imgui\imgui_widgets.cpp.obj -c D:\video_app\include\imgui\imgui_widgets.cpp
+
+CMakeFiles/video_app.dir/include/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/video_app.dir/include/imgui/imgui_widgets.cpp.i"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\video_app\include\imgui\imgui_widgets.cpp > CMakeFiles\video_app.dir\include\imgui\imgui_widgets.cpp.i
+
+CMakeFiles/video_app.dir/include/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/video_app.dir/include/imgui/imgui_widgets.cpp.s"
+	C:\msys64\ucrt64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\video_app\include\imgui\imgui_widgets.cpp -o CMakeFiles\video_app.dir\include\imgui\imgui_widgets.cpp.s
+
 # Object files for target video_app
 video_app_OBJECTS = \
 "CMakeFiles/video_app.dir/src/main.cpp.obj" \
-"CMakeFiles/video_app.dir/src/gl.c.obj"
+"CMakeFiles/video_app.dir/src/gl.c.obj" \
+"CMakeFiles/video_app.dir/include/imgui/imgui.cpp.obj" \
+"CMakeFiles/video_app.dir/include/imgui/imgui_demo.cpp.obj" \
+"CMakeFiles/video_app.dir/include/imgui/imgui_draw.cpp.obj" \
+"CMakeFiles/video_app.dir/include/imgui/imgui_impl_glfw.cpp.obj" \
+"CMakeFiles/video_app.dir/include/imgui/imgui_impl_opengl3.cpp.obj" \
+"CMakeFiles/video_app.dir/include/imgui/imgui_tables.cpp.obj" \
+"CMakeFiles/video_app.dir/include/imgui/imgui_widgets.cpp.obj"
 
 # External object files for target video_app
 video_app_EXTERNAL_OBJECTS =
 
 video_app.exe: CMakeFiles/video_app.dir/src/main.cpp.obj
 video_app.exe: CMakeFiles/video_app.dir/src/gl.c.obj
+video_app.exe: CMakeFiles/video_app.dir/include/imgui/imgui.cpp.obj
+video_app.exe: CMakeFiles/video_app.dir/include/imgui/imgui_demo.cpp.obj
+video_app.exe: CMakeFiles/video_app.dir/include/imgui/imgui_draw.cpp.obj
+video_app.exe: CMakeFiles/video_app.dir/include/imgui/imgui_impl_glfw.cpp.obj
+video_app.exe: CMakeFiles/video_app.dir/include/imgui/imgui_impl_opengl3.cpp.obj
+video_app.exe: CMakeFiles/video_app.dir/include/imgui/imgui_tables.cpp.obj
+video_app.exe: CMakeFiles/video_app.dir/include/imgui/imgui_widgets.cpp.obj
 video_app.exe: CMakeFiles/video_app.dir/build.make
 video_app.exe: lib/glfw/src/libglfw3.a
 video_app.exe: CMakeFiles/video_app.dir/linkLibs.rsp
 video_app.exe: CMakeFiles/video_app.dir/objects1.rsp
 video_app.exe: CMakeFiles/video_app.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\video_app\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable video_app.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\video_app\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable video_app.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\video_app.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

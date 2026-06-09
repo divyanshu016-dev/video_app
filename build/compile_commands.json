@@ -1,7 +1,7 @@
 [
 {
   "directory": "D:/video_app/build",
-  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/video_app.dir/includes_CXX.rsp -g -o CMakeFiles\\video_app.dir\\src\\main.cpp.obj -c D:\\video_app\\src\\main.cpp",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/video_app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\video_app.dir\\src\\main.cpp.obj -c D:\\video_app\\src\\main.cpp",
   "file": "D:/video_app/src/main.cpp",
   "output": "CMakeFiles/video_app.dir/src/main.cpp.obj"
 },
@@ -10,6 +10,48 @@
   "command": "C:\\msys64\\ucrt64\\bin\\gcc.exe  @CMakeFiles/video_app.dir/includes_C.rsp -g -o CMakeFiles\\video_app.dir\\src\\gl.c.obj -c D:\\video_app\\src\\gl.c",
   "file": "D:/video_app/src/gl.c",
   "output": "CMakeFiles/video_app.dir/src/gl.c.obj"
+},
+{
+  "directory": "D:/video_app/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/video_app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\video_app.dir\\include\\imgui\\imgui.cpp.obj -c D:\\video_app\\include\\imgui\\imgui.cpp",
+  "file": "D:/video_app/include/imgui/imgui.cpp",
+  "output": "CMakeFiles/video_app.dir/include/imgui/imgui.cpp.obj"
+},
+{
+  "directory": "D:/video_app/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/video_app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\video_app.dir\\include\\imgui\\imgui_demo.cpp.obj -c D:\\video_app\\include\\imgui\\imgui_demo.cpp",
+  "file": "D:/video_app/include/imgui/imgui_demo.cpp",
+  "output": "CMakeFiles/video_app.dir/include/imgui/imgui_demo.cpp.obj"
+},
+{
+  "directory": "D:/video_app/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/video_app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\video_app.dir\\include\\imgui\\imgui_draw.cpp.obj -c D:\\video_app\\include\\imgui\\imgui_draw.cpp",
+  "file": "D:/video_app/include/imgui/imgui_draw.cpp",
+  "output": "CMakeFiles/video_app.dir/include/imgui/imgui_draw.cpp.obj"
+},
+{
+  "directory": "D:/video_app/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/video_app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\video_app.dir\\include\\imgui\\imgui_impl_glfw.cpp.obj -c D:\\video_app\\include\\imgui\\imgui_impl_glfw.cpp",
+  "file": "D:/video_app/include/imgui/imgui_impl_glfw.cpp",
+  "output": "CMakeFiles/video_app.dir/include/imgui/imgui_impl_glfw.cpp.obj"
+},
+{
+  "directory": "D:/video_app/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/video_app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\video_app.dir\\include\\imgui\\imgui_impl_opengl3.cpp.obj -c D:\\video_app\\include\\imgui\\imgui_impl_opengl3.cpp",
+  "file": "D:/video_app/include/imgui/imgui_impl_opengl3.cpp",
+  "output": "CMakeFiles/video_app.dir/include/imgui/imgui_impl_opengl3.cpp.obj"
+},
+{
+  "directory": "D:/video_app/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/video_app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\video_app.dir\\include\\imgui\\imgui_tables.cpp.obj -c D:\\video_app\\include\\imgui\\imgui_tables.cpp",
+  "file": "D:/video_app/include/imgui/imgui_tables.cpp",
+  "output": "CMakeFiles/video_app.dir/include/imgui/imgui_tables.cpp.obj"
+},
+{
+  "directory": "D:/video_app/build",
+  "command": "C:\\msys64\\ucrt64\\bin\\g++.exe  @CMakeFiles/video_app.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\video_app.dir\\include\\imgui\\imgui_widgets.cpp.obj -c D:\\video_app\\include\\imgui\\imgui_widgets.cpp",
+  "file": "D:/video_app/include/imgui/imgui_widgets.cpp",
+  "output": "CMakeFiles/video_app.dir/include/imgui/imgui_widgets.cpp.obj"
 },
 {
   "directory": "D:/video_app/build/lib/glfw/src",
